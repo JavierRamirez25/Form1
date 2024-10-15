@@ -1,0 +1,155 @@
+body{
+    background-image: url(blanco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.footer{
+    height: 100px;
+    background-color:aquamarine;
+}
+
+
+/* From Uiverse.io by krlozCJ */ 
+button {
+  border: none;
+  outline: none;
+  background-color: #6c5ce7;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 5px;
+  transition: all ease 0.1s;
+  box-shadow: 0px 5px 0px 0px #a29bfe;
+}
+
+button:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 0px 0px #a29bfe;
+}
+
+
+.style {
+  display: flex;
+  font-family: Arial;
+  width: 70%;
+}
+
+.card:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}
+
+.mision {
+  background-color: azure;
+  width: 50%;
+  margin: 15px;
+  box-shadow: 0px 5.5px 10px black;
+}
+
+.vision {
+  background-color: azure;
+  width: 50%;
+  margin: 15px;
+  box-shadow: 0px 5.5px 10px black;
+}
+
+card:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+
+}
+
+.card1{
+    position: absolute;
+}
+
+.card2{
+position: absolute;
+    left: 25%;
+}
+
+.card3{
+position: absolute;
+    left: 50%;
+}
+
+.card4{
+position: absolute;
+    left: 75%;
+}
+
+.card5{
+    position: absolute;
+    left: 25%;
+}
+
+.card6{
+position: absolute;
+    left: 50%;
+}
+
+
+.cardHorario{
+    background-color: darkgray;
+    transition: 200ms;
+}
+
+.cardHorario:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+
+
+
+.cardHorario2{
+    background-color: darkgray;
+    transition: 200ms;
+}
+
+.cardHorario2:hover{
+    background-color: lightsteelblue;
+    transform: translateY(-3%);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+}
+
+.texto{
+    background-color: black;
+}
